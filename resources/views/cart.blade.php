@@ -65,6 +65,7 @@
                                                     class="inline-flex items-center text-sm font-medium text-gray-500 hover:text-gray-900 hover:underline">
                                                     ❤️ Add to Favorites
                                                 </button>
+                                                
 
                                                 <form method="POST"
                                                     action="{{ route('cart.remove', $cartItem['id']) }}">
